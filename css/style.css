@@ -1,0 +1,295 @@
+*{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+body {
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: 0px;
+	margin-left: 10px;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", geneva, verdana, sans-serif;
+	font-size: 70%;
+}
+html { 
+	height: 100%; 
+	margin-bottom: 1px; 
+}
+.header {
+	background: #000;
+	cursor: pointer;
+	padding:4px;
+}
+#footer {
+	width:660px;
+	margin:0 auto;
+	color:#ccc;
+}
+
+#footer a {
+	color:#aaa;
+	text-decoration:none;
+	font-weight:bold;
+}
+
+#footer .validate {
+	float:right;
+}
+
+.header:hover{
+	background-color:#666;
+}
+#accordian #test1-content .accordion_child p {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+#accordian #test-content dd .accordion_child p {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+.logo {
+	padding-top: 1px;
+	top: 1px;
+	clip: rect(1px,auto,auto,auto);
+	position: fixed;
+}
+
+
+#header h1 a {
+	color:#333;
+	text-decoration:none;
+}
+
+#header h1 a:hover {
+	color:#000;
+}
+.selected{
+	background-color:#F00;
+	color:#FFF;
+}
+
+.content{
+	background:#FFF;
+	padding:4px;
+}
+
+.accordion_child a {
+	color:#333;
+}
+
+.accordion_child a:hover {
+	text-decoration:none;
+	font-size: 11px;
+}
+
+.accordion_child ul.links li {
+	background:url(../images/link.gif) left no-repeat;
+}
+
+input {
+	width:180px;
+	background:url(../images/input.jpg) top no-repeat;
+	font: 100% "Lucida Grande","Lucida Sans Unicode",geneva,verdana,sans-serif;
+	color:#333;
+	border:0;
+	padding:7px 10px;
+	margin:5px;
+	color:#777;
+}
+textarea {
+	width:350px;
+	height:105px;
+	background:url(../images/textarea.jpg) top no-repeat;
+	font: 100% "Lucida Grande","Lucida Sans Unicode",geneva,verdana,sans-serif;
+	color:#333;
+	border:0;
+	padding:10px;
+	margin:5px;
+	color:#777;
+}
+
+input[type=submit] {
+	 cursor:pointer;
+	 background:#ff9900;
+	 color:#fff;
+	 font-weight:bold;
+	 width:182px;
+	 height:33px;
+	 padding:7px 10px;
+	 background:url(../images/submit.jpg) top no-repeat;
+}
+
+blockquote {
+	font: 1.5em/1.8em Georgia, "Times New Roman", Times, serif;
+	background: url(../images/close-quote.gif) no-repeat right bottom;
+	padding-left: 18px;
+	color:#888;
+	margin:20px 0;
+	text-indent: -18px;
+}
+
+blockquote:first-letter {
+	background: url(../images/open-quote.gif) no-repeat left top;
+    padding-left: 18px;
+}
+
+.accordion_child ul {
+	margin:25px 0 25px 0px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 16px;
+}
+
+.accordion_child ul li {
+	padding-left:20px;
+	background:url(../images/bullet.gif) left no-repeat;
+	font-size: 11px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	margin-top: 0px;
+	margin-right: 0;
+	margin-bottom: 10px;
+	margin-left: 0;
+	line-height: 6px;
+}
+
+table {
+	width:100%;
+	padding:5px;
+	font-size: 14px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+td {
+	background:#eee;
+	padding:4px;
+	text-align:center;
+	background:url(../images/td.jpg) top repeat-x;
+}
+
+h2 {
+clear:both;
+}
+
+.accordion_child h2 {
+	font:170% Arial;
+	color:#B02700;
+	border-bottom:1px solid #eee;
+	background:url(../images/h2.jpg) bottom left no-repeat;
+	font-size: 14px;
+	font-weight: bold;
+	margin-right: 0;
+	margin-bottom: 0px;
+	margin-left: 0;
+	padding-right: 0;
+	padding-bottom: 0px;
+	padding-left: 0;
+}
+
+#header h1 {
+	text-align:center;
+	font:350% Georgia;
+	font-style:italic;
+	color:#232323;
+	margin-top:50px;
+	letter-spacing:-1px;
+}
+
+#header h2 {
+text-align:center;
+font:100% Verdana;
+text-transform:uppercase;
+letter-spacing:2px;
+color:#bbb;
+margin:10px 0 40px;
+}
+
+
+
+
+#accordian{
+	padding:5px;
+	width:660px;
+	z-index:2;
+	margin:0 auto;
+}
+
+.accordion_headings{
+	padding:7px 10px;
+	background:url(../images/item_bg.jpg) top no-repeat;
+	color:#FFFFFF;
+	margin-top:2px;
+	cursor:pointer;
+	font:170% Trebuchet MS;
+	letter-spacing:1px;
+	clear:both;
+}
+
+.accordion_headings:hover{
+	background:url(../images/item_bg_hover.jpg) top no-repeat;
+}
+
+.accordion_child{
+	background:#fafafa;
+	border:5px solid #f4f4f4;
+	font-size: 12px;
+	text-align: left;
+	padding-top: 1px;
+	padding-right: 30px;
+	padding-bottom: 1px;
+	padding-left: 30px;
+}
+
+img {
+	float:none;
+	margin-right: 0;
+	margin-bottom: 10px;
+	margin-left: 60px;
+	text-align: center;
+	padding-top: 5px;
+}
+
+p {
+	line-height:19px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 10px;
+}
+
+.header_highlight{
+	background:url(../images/item_bg_hover.jpg) top no-repeat;
+}
+.sdf {
+	height: 80px;
+	width: 400px;
+}
+#accordian #test1-content .accordion_child blockquote h3 {
+	font-size: 14px;
+}
+#accordian #test2-content .accordion_child p {
+	font-size: 11px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+#accordian #test3-content .accordion_child .links li a {
+	font-size: 12px;
+}
+#accordian #test2-content .accordion_child #submit tbody tr td em {
+	font-size: 11px;
+}
+#accordian #test1-content .accordion_child blockquote p em {
+	font-style: normal;
+
+}
+.text {
+	font-size: 12px;
+	word-spacing: normal;
+	float: right;
+	text-align: left;
+	clear: left;
+}
+#accordian #test3-content .accordion_child p {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+#accordian #test3-content .accordion_child p {
+	font-size: 11px;
+}
+#accordian #test2-content .accordion_child form {
+	font-size: 11px;
+}
